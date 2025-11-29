@@ -10,6 +10,7 @@ const PostDisplay = () => {
     const [showUser,setShowUser] = useState(false);
     const [showComment,setShowComment] =useState(false);
 
+    
     const dispatch = useDispatch()
 
     const likeHandler =(e)=>{
