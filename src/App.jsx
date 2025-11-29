@@ -2,6 +2,8 @@
 import './App.css'
 import PostDisplay from './projectFolder/PostDisplay'
 import Navbar from './projectFolder/Navbar'
+import Demo from './projectFolder/demo'
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
     <>
   <Navbar/>
   <PostDisplay/>
+<Demo/>
     </>
   )
 }
